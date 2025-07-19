@@ -3,7 +3,7 @@
 Stored Procedure: Load Silver Layer (Bronze -> Silver)
 ===============================================================================
 Script Purpose:
-    This stored procedure performs the ETL process and takes the uncleaned data and cleans/standardizes it
+    This stored procedure creates the tables where the cleaned/standardized data will live
 
 Usage Example:
     EXEC Silver.load_silver;
