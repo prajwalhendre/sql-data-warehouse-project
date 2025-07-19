@@ -3,6 +3,7 @@
 
 **Overview**: this catalog holds an overview of the three final tables that can be used for data visualizations. It has both fact and dimension tables.
 
+
 **gold.dim_customers** - Stores customer details with demographic and geographic data.
 
   customer_key - INT - Surrogate key uniquely identifying each customer record in the dimension table.
@@ -24,6 +25,7 @@
   birthdate - DATE - The date of birth of the customer, formatted as YYYY-MM-DD (e.g., 1971-10-06).
   
   create_date - DATE - The date and time when the customer record was created in the system
+
 
 
 **gold.dim_products** - Provides information about the products and their attributes.
@@ -49,6 +51,8 @@
   product_line - NVARCHAR(50) - The specific product line or series to which the product belongs (e.g., Road, Mountain).
   
   start_date - DATE - The date when the product became available for sale or use, stored in
+
+
 
 **gold.fact_sales** - Stores transactional sales data for analytical purposes.
 
